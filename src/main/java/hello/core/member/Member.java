@@ -8,6 +8,7 @@ public class Member {
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
+        this.grade=grade;
     }
 
     public Long getId() {
